@@ -1,0 +1,5 @@
+dist/
+# yarn & npm
+node_modules/
+package.lock
+yarn.lock

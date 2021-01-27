@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Global Chat">
+	<meta name="author" content="Daniel Florescu">
+	<title>Global Chat</title>
+
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<h1>Global chat</h1>
+	<hr>
+	<p>To use write functionality please fill this captcha. (don't include spaces)</p>
+	<p>The captcha is discarded after 60 minutes. Just reload the page.</p>
+	<img id="checkimg" alt="Please wait 20 seconds, and then reload."><br>
+	<input type="text" id="check_input">
+	<hr>
+	<ul id='messages'>
+		
+	</ul>
+	<input type="text" id="send_input">
+	<button onclick="send_msg()">Send</button>
+	
+</body>
+</html>
