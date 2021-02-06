@@ -6,6 +6,7 @@
 	"author": "Daniel Florescu <Daniel.florescu1905@protonmail.ch>",
 	"license": "BSD-3-Clause",
 	"scripts": {
+		"build": "yarn tsc",
 		"dev": "yarn tsc -w & yarn nodemon dist/index.js"
 	},
 	"dependencies": {
